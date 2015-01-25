@@ -1,0 +1,72 @@
+[user]
+	name = Mateus Ortiz
+	email = mateus.prado@ig.com.br
+[alias]
+	# Add
+	ad = add
+	add = add .
+
+	# commit
+	cm = commit
+	ca = commit --amend -m
+
+	# checkout
+	co = checkout
+	cb = checkout -b
+
+	# cherry-pick
+	cp = cherry-pick
+
+	# diff
+	df = diff
+
+	# list
+	tl = tag -l
+	bl = branch -a
+	rl = remote -v
+
+	# status
+	st = status -s
+
+	# pull
+	pl = pull
+	plo = pull --rebase origin
+	plom = pull --rebase origin master
+	plog = pull --rebase origin gh-pages
+	plu  = pull --rebase upstream
+	plum = pull --rebase upstream master
+	plug = pull --rebase upstream gh-pages
+
+	# push
+	ps = push
+	pso  = push origin
+	psom = push origin master
+	psog = push origin gh-pages
+	psu  = push upstream
+	psum = push upstream master
+	psug = push upstream gh-pages
+
+	# logs
+	l  = log --pretty=oneline --decorate --abbrev-commit --max-count=15
+	ll = log --graph --pretty=format:'%Cred%h%Creset %an: %s %Creset%Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+
+[color]
+	diff = auto
+	status = auto
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added     = cyan bold
+	branch    = cyan bold
+	changed   = magenta bold
+	deleted   = red bold
+	untracked = yellow bold
+[push]
+	# 'git push' will push the current branch to its tracking branch
+	# the usual default is to push all branches
+	default = tracking
+[core]
+	excludesfile = ~/.gitignore_global
