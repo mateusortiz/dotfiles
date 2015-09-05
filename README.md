@@ -12,7 +12,7 @@ $ git clone https://github.com/mateusortiz/dotfiles.git && cd dotfiles && sh ins
 
 ## What's included?
 
-All my command-line tools and  configurations. have fun =D
+All my command-line tools and  configurations. Have fun =D
 
 **Shell**
 
@@ -43,8 +43,3 @@ All my command-line tools and  configurations. have fun =D
 * [Compass]() Sass programming
 * [Rbenv]() version management
 * [Jekyll]() static websites
-
-
-
-
-
