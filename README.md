@@ -2,7 +2,7 @@
 
 > for more settings in gist
 
-## How to install?
+## How to install
 
 ```sh
 $ curl -L https://raw.github.com/mateusortiz/dotfiles/master/install.sh || sh
