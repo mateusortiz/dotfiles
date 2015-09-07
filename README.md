@@ -43,3 +43,7 @@ All my command-line tools and  configurations. Have fun =D
 * [Compass]() Sass programming
 * [Rbenv]() version management
 * [Jekyll]() static websites
+
+## License
+
+[MIT License](http://mateusortiz.mit-license.org/) © Mateus Ortiz
