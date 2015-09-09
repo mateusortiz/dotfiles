@@ -42,4 +42,11 @@ else
 	sudo npm install -g jshint
 fi
 
+# -- Yeoman ----------------------------------------------------------------------
+if which yeoman &> /dev/null; then
+	msg_ok "yeoman"
+else
+	msg_run "jshint" "sudo npm install -g yeoman"
+	sudo npm install -g yeoman
+fi
 
