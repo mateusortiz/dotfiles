@@ -5,9 +5,11 @@
 ## How to install
 
 ```sh
-$ curl -L https://raw.github.com/mateusortiz/dotfiles/master/install.sh || sh
+$ curl -L https://raw.github.com/mateusortiz/dotfiles/master/setup.sh || sh
+```
 or
-$ git clone https://github.com/mateusortiz/dotfiles.git && cd dotfiles && sh install.sh
+```sh
+$ ~/.setup.sh
 ```
 
 ## What's included?
