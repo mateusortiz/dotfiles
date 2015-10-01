@@ -1,4 +1,4 @@
-=!/bin/sh
+#!/bin/sh
 source $HOME/.dotfiles/log.sh
 
 # -- Config ----------------------------------------------------------------------
@@ -9,7 +9,7 @@ else
 	ln -s $HOME/.dotfiles/git/.gitconfig $HOME/.gitconfig
 fi
 
-# -- Globa ignore ----------------------------------------------------------------------
+# -- Global ignore ----------------------------------------------------------------------
 if [[ -L "$HOME/.gitignore_global" ]]; then
 	msg_ok "gitignore_global"
 else
