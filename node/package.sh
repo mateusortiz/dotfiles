@@ -50,3 +50,11 @@ else
 	sudo npm install -g yeoman
 fi
 
+# -- Harmonic ----------------------------------------------------------------------
+if which harmonic &> /dev/null; then
+	msg_ok "harmonic"
+else
+	msg_run "harmonic" "sudo npm install -g harmonic"
+	sudo npm install -g harmonic
+fi
+
