@@ -9,10 +9,10 @@ else
 	brew install node
 fi
 
-# -- N ----------------------------------------------------------------------
-if which n &>/dev/null; then
-	msg_ok "n"
+# -- NVM ----------------------------------------------------------------------
+if which nvm &>/dev/null; then
+	msg_ok "nvm"
 else
-	msg_run "n" "npm install -g n"
-	sudo npm install -g n
+	msg_run "nvm" "curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.27.1/install.sh | bash"
+	curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.27.1/install.sh | bash
 fi
