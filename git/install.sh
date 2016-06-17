@@ -1,6 +1,15 @@
 #!/bin/sh
 source $HOME/.dotfiles/log.sh
 
+# git
+if which git &>/dev/null; then
+	msg_ok "git"
+else
+	msg_run "git" "brew install git"
+	brew install git
+	msg_done "Done"
+fi
+
 # -- Config ----------------------------------------------------------------------
 if [[ -L "$HOME/.gitconfig" ]]; then
 	msg_ok "gitconfig"
