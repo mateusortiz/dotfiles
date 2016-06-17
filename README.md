@@ -4,13 +4,13 @@
 
 ## How to install
 
-1. Fork or Clone repo
+Fork or Clone repo
 
 ```sh
 git clone https://github.com/mateusortiz/dotfiles.git
 ```
 
-2. and then:
+and then:
 
 ```sh
 sh setup.sh
