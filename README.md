@@ -4,12 +4,16 @@
 
 ## How to install
 
+1. Fork or Clone repo
+
 ```sh
-$ curl -L https://raw.github.com/mateusortiz/dotfiles/master/setup.sh || sh
+git clone https://github.com/mateusortiz/dotfiles.git
 ```
-or
+
+2. and then:
+
 ```sh
-$ ~/.setup.sh
+sh setup.sh
 ```
 
 ## What's included?
